@@ -26,5 +26,7 @@ class Grocery extends CI_Controller {
         $data['title'] = ucfirst($page);
 
         $this->load->view('include/header',$data);
+        $this->load->view('include/search',$data);
+        $this->load->view('include/footer',$data);
 	}
 }

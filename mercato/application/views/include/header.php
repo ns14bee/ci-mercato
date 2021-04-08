@@ -3,18 +3,43 @@
 <head>
 
 <title><?php echo $title; ?></title>
-
+<meta name="DESCRIPTION" content="Get fresh groceries delivered in 1-Hr. Save time &amp; money by choosing your favorite local specialty food shops, produce markets, etc. delivered right to you."/>
+<meta name="ROBOTS" content="INDEX, FOLLOW"/>
+<meta property="og:title" content="Grocery Delivery - Groceries Delivered in One Hour - Mercato"/>
+<meta property="og:description" content="Get fresh groceries delivered in 1-Hr. Save time &amp; money by choosing your favorite local specialty food shops, produce markets, etc. delivered right to you."/>
+<meta property="og:type" content="website"/>
+<meta charset="UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<base href="https://www.mercato.com"/>
+<link rel="canonical" href="https://www.mercato.com/grocery-delivery"/>
+<link rel="apple-touch-icon" sizes="57x57" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://dye1fo42o13sl.cloudfront.net/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="https://dye1fo42o13sl.cloudfront.net/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://dye1fo42o13sl.cloudfront.net/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://dye1fo42o13sl.cloudfront.net/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://dye1fo42o13sl.cloudfront.net/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://dye1fo42o13sl.cloudfront.net/favicons/manifest.json">
+<link rel="shortcut icon" href="https://dye1fo42o13sl.cloudfront.net/favicons/favicon.ico">
 <script src="preload" href="<?php echo base_url();?>assets/js/webfont.js"></script>
 <script>WebFont.load({google:{families:['Open Sans:400,600,700,300,400italic']}});</script>
 <link rel="preload" href="<?php echo base_url();?>assets/js/require.js" as="script">
 <link rel="preload" href="<?php echo base_url();?>assets/js/common.js" as="script">
 <link rel="preload" href="<?php echo base_url();?>assets/js/GroceryDelivery.js" as="script">
 
+
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/GroceryDelivery.css"/>
 
 </head>
-
 <body>
+<!-- <body data-cart-visible data-show-green-ads="true" data-signedin data-zipcode class="rebrand rebrand-cart overflow-visible no-touch-enabled webp js--enabled loaded body--fixed-header" data-modal-data-url="/item-modal" data-new-gr-c-s-check-loaded="14.1004.0" data-gr-ext-installed data-new-gr-c-s-loaded > -->
 <div id="MatchfireData" data-customer-id="" data-customer-status="Guest" data-customer-delivery-market="Not+available" data-customer-order-frequency="0+orders" data-purchase="" data-purchase-categories=""></div><body data-cart-visible="" data-show-green-ads="true" data-signedin="" data-zipcode="" class="rebrand rebrand-cart overflow-visible" data-modal-data-url="/item-modal">
 <div class="relative">
 <header id="masthead" class="js--full-header rebranded-header remove-element--rebrand siteHeader siteHeader--with-preheader header-fixed " role="banner">
@@ -31,8 +56,8 @@ Try 30 Days RISK-FREE</span>
 <i class="rebrand-preheader__icon ma ma-mobile"></i>
 (844) 699-2776 (9am-9pm ET)</a>
 </div>
-<div class="rebrand-preheader__child"><a href="http://help.mercato.com" target="_blank"><i class="rebrand-preheader__icon ma ma-info-circle"></i> Help &amp; FAQs</a></div>
-<div class="rebrand-preheader__child"><a id="ChatToggle" href="" class="chat-toggle"><i class="rebrand-preheader__icon ma ma-comment"></i> Live chat</a></div>
+<div class="rebrand-preheader__child"><a href="<a href='<?php echo base_url();?>'" target="_blank"><i class="rebrand-preheader__icon ma ma-info-circle"></i> Help &amp; FAQs</a></div>
+<div class="rebrand-preheader__child"><a id="ChatToggle" href="#" class="chat-toggle"><i class="rebrand-preheader__icon ma ma-comment"></i> Live chat</a></div>
 </div>
 </div>
 <div data-component="HeaderBanner"></div>
@@ -63,7 +88,7 @@ Try 30 Days RISK-FREE</span>
 <a href="/change-location">Change Location</a>
 </li>
 <li>
-<a href="https://www.mercato.com/customer/green">Sign In</a>
+<a href="#">Sign In</a>
 </li>
 <li class="
 					                        js--cs-phone-el
@@ -112,3 +137,4 @@ Try to order as many of your items as possible from one store to keep delivery c
 </div>
 </div>
 </header>
+<section>
